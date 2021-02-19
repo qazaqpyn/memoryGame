@@ -1,5 +1,5 @@
-import Score from './components/Score'
 import List from './components/List'
+import './style.css'
 
 function App() {
   return (

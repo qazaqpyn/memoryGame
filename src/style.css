@@ -1,0 +1,54 @@
+.boardNumbers {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.boardNumbers p {
+    border: 1px solid black;
+    font-size: 70px;
+    text-align: center;
+    width: 140px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+
+.boardNumbers p:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.header {
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.header:hover{
+    cursor: default;
+}
+
+body{
+    user-select: none;
+    font-family: 'DotGothic16', sans-serif;
+    background-color: #4D5D53;
+    overflow: hidden
+}
+
+#root {
+    border: 5px solid #944039;
+    background-color: #4FAF44;
+    width: 70%;
+    margin: auto;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+}
+
+#me{
+    text-align: center;
+    font-size: 25px;
+}
+
+#me a{
+    text-decoration: none;
+    color: black;
+}
